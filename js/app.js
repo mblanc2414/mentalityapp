@@ -47,7 +47,7 @@ function compare1 () {
 $('.first-option').on('click', compare1)
 $('.second-option').on('click', compare2)
 
-
+// Test commit function 
 // line 9: to get data year."selection" 
 
 // create textbox for users data input: DONE!
