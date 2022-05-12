@@ -36,16 +36,16 @@ function compare1 () {
         alert("You're incorrect!")
     }}
     console.log($('.rating'))
-    // function compare2 () {
-    //     if ($('.rat2')> $('.rating')){
-    //         alert("You're correct!!")
-    //     }else{
-    //         alert("You're incorrect!")
-    //     }}
+    function compare2 () {
+        if ($('.rat2')> $('.rating')){
+            alert("You're correct!!")
+        }else{
+            alert("You're incorrect!")
+        }}
 
     $getExBtn.on('click', getYear)
 $('.first-option').on('click', compare1)
-// $('.second-option').on('click', compare2)
+$('.second-option').on('click', compare2)
 
 
 // line 9: to get data year."selection" 
