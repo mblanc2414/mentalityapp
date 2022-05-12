@@ -1,18 +1,17 @@
 body {
-    background-color: darkcyan;
+    background-color:darkcyan;
 }
 h1 {
+    font-family: 'Macondo';
     text-align: center;
     text-decoration: underline;
-    color: beige;
+    color:azure;
 }
 header {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-/* .btnExperience {
-    
-} */
+
 .quote {
 background-color: beige;
 }

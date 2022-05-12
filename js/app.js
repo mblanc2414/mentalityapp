@@ -1,39 +1,23 @@
-// ALL API
-// const  URL = [
-//     $.ajax({
-//         URL: 'https://api.unsplash.com/get/photo/random?tV-DobzGZGDVroe9ya7queS0o7XPqV2L4FsdYqsAdLE'
-//     }).then(
-        
-//     )
-// ]
+const url = 'http://www.omdbapi.com/?apikey=b29f04f&t='
 // ALL BUTTON FUNCTIONALITY HERE:
+
+
 const $getExBtn = $('#getExBtn')
-$getExBtn.on('click', function() {
-    url:'https://api.unsplash.com/get/photo/random?tV-DobzGZGDVroe9ya7queS0o7XPqV2L4FsdYqsAdLE'
-}).then(
-    (data) => {
+function getYear(event) {
+    event.preventDefault();
+    $.ajax(url + 'Avatar').then(function(year){
+ // console.log(year.'') will get any specific data from user input
+console.log(year.Title);
+    }
+    )} 
+    $getExBtn.on('click', getYear)
+ 
 
-    })
+// line 9: to get data year."selection" 
 
-// const getExBtn = () => {
-// // Input ajax API data here
-// // console.log(apiData)
+// create textbox for users data input:
+// pull value from textbox and assign to var
+// place var into url reference line 8 ''
 
-// }
-// EVENT LISTENTER:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// idea movie versus movie 
+// use number game conditional statements as a way for users to guess the high ranking of the movies
