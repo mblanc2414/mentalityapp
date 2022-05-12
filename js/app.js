@@ -5,17 +5,18 @@ const url = 'http://www.omdbapi.com/?apikey=b29f04f&t='
 const $getExBtn = $('#getExBtn')
 function getYear(event) {
     event.preventDefault();
-    $.ajax(url + 'Avatar').then(function(year){
+    $.ajax(url + "").then(function(year){
  // console.log(year.'') will get any specific data from user input
 console.log(year.Title);
     }
     )} 
     $getExBtn.on('click', getYear)
- 
+
 
 // line 9: to get data year."selection" 
 
-// create textbox for users data input:
+// create textbox for users data input: DONE!
+// Allow textbox input to push into (url + '')
 // pull value from textbox and assign to var
 // place var into url reference line 8 ''
 
