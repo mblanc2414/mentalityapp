@@ -1,15 +1,19 @@
+
 const url = 'http://www.omdbapi.com/?apikey=b29f04f&t='
 // ALL BUTTON FUNCTIONALITY HERE:
 
 
 const $getExBtn = $('#getExBtn')
 function getYear(event) {
+    let userEntry = document.querySelector('.textInput').value
+console.log(userEntry);
     event.preventDefault();
-    $.ajax(url + "").then(function(year){
- // console.log(year.'') will get any specific data from user input
-console.log(year.Title);
+    $.ajax(url + userEntry).then(function(year){
+
     }
     )} 
+
+    
     $getExBtn.on('click', getYear)
 
 
