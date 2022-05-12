@@ -27,6 +27,8 @@ $.ajax(url + userEntry2).then(function(year2){
 
     }) 
 }
+// comparing rating for movie1 and movie2/user will click movie choice button and receive alert
+// RATING IS NOT APPENDING/NEED TO GET ACTUAL RATING PERCENTAGE!
 function compare1 () {
     if ($('.rating') > $('.rat2')){
         alert("You're correct!!")
