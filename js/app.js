@@ -1,5 +1,5 @@
 
-const url = `http://www.omdbapi.com/?apikey=b29f04f&t=`
+const url = `https://www.omdbapi.com/?apikey=b29f04f&t=`
 // ALL BUTTON FUNCTIONALITY HERE:
 // let rating1='';
 
