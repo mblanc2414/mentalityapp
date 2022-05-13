@@ -1,5 +1,5 @@
 
-const url = 'http://www.omdbapi.com/?apikey=b29f04f&t='
+const url = `http://www.omdbapi.com/?apikey=b29f04f&t=`
 // ALL BUTTON FUNCTIONALITY HERE:
 // let rating1='';
 
@@ -37,7 +37,7 @@ function compare1 () {
     }}
     console.log($('.rating'))
     function compare2 () {
-        if ($('.rat2')> $('.rating')){
+        if ($('.rat2') > $('.rating')){
             alert("You're correct!!")
         }else{
             alert("You're incorrect!")
