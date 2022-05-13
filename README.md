@@ -3,7 +3,8 @@ Title: Movie Mania
 
 TECHNOLOGY USED:
 JavaScript, CSS, HTML, JQuery, and Ajax.
-
+Trello:
+https://trello.com/b/4Belsyfo/project-1-the-mentality-app
 SCREENSHOTS:
 https://i.imgur.com/Vx8ADQ6.png
 https://i.imgur.com/KtljmUu.png
