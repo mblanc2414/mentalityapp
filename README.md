@@ -5,6 +5,7 @@ TECHNOLOGY USED:
 JavaScript, CSS, HTML, JQuery, and Ajax.
 
 SCREENSHOTS:
+https://i.imgur.com/Vx8ADQ6.png
 https://i.imgur.com/KtljmUu.png
 https://i.imgur.com/b3birmB.png
 https://i.imgur.com/HJgA8Xi.png
