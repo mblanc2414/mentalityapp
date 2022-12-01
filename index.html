@@ -5,34 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
-   
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Inconsolata:wght@200&family=Patua+One&display=swap');
+      </style>
     <title>Movie Mania</title>
+    <div class="search">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <button id="getExBtn">Submit</button>
     <input  class="textInput" type="string">
 
     
     <input  class="textInput2" type="string">
+  </div>
 </head>
 <body>
 
   <header>
     <h1>Movie Mania</h1>
     <h4 class="questions">Who is the winner?</h4>
+  </header>  
+  <div class="choices">
     <button class="first-option">Movie 1 Choice</button>
     <button class="second-option">Movie 2 Choice</button>
-  </header>  
-
+  </div>
+  <div class="movies">
     <div class="movie1">
-      <div class="row justify-content-center">
         <p class = "rating"></p>
     
     </div>
-  </div>
     <div class="movie2">
 <p class="rat2"></p>
     </div>
-    
+  </div>
 
 <script src="./js/app.js"></script>
 </body>
