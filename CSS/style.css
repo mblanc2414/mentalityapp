@@ -1,5 +1,5 @@
 body {
-    background:darkcyan;
+    background-color: rgba(65, 16, 210, 0.82);
     justify-content:center;
 }
 h1 {
@@ -10,14 +10,14 @@ h1 {
 
 }
 header {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 
 .questions {
     text-align: center;
-   
+    font-family: 'Patua One', cursive;
 }
 .choices {
     text-align: center;
